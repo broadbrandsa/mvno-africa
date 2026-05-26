@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import {
   CalendarCheck,
   CheckCircle2,
+  MapPin,
   Send,
   ShieldCheck,
   Sparkles,
@@ -40,7 +42,34 @@ export function RsvpForm() {
       <div className="relative mx-auto max-w-7xl px-6 py-20 sm:px-10 sm:py-28">
         <div className="grid gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
           <Reveal>
-            <div className="max-w-xl space-y-5">
+            <div className="max-w-xl space-y-6">
+              {/* Cape Town CBD postcard — Pieter van Noorden / Unsplash.
+                  Vertical photo framed like a passport stamp to anchor the
+                  "you're going to Cape Town" idea visually. */}
+              <div className="relative overflow-hidden rounded-2xl border border-white/10 shadow-2xl shadow-black/40">
+                <Image
+                  src="/images/cape-town-cbd.jpg"
+                  alt="Cape Town CBD at sunrise with the Hottentots Holland mountains in the distance"
+                  width={1067}
+                  height={1600}
+                  className="aspect-[16/9] w-full object-cover"
+                />
+                {/* Subtle bottom-fade so the caption sits cleanly. */}
+                <div
+                  className="absolute inset-x-0 bottom-0 h-1/2 bg-[linear-gradient(180deg,transparent_0%,rgba(10,22,40,0.85)_100%)]"
+                  aria-hidden
+                />
+                <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-3 px-4 py-3 text-xs text-fg-muted">
+                  <span className="inline-flex items-center gap-1.5 font-semibold uppercase tracking-[0.16em] text-mint-300">
+                    <MapPin className="size-3" />
+                    Cape Town
+                  </span>
+                  <span className="uppercase tracking-[0.16em] text-fg-faint">
+                    {event.dates}
+                  </span>
+                </div>
+              </div>
+
               <Badge tone="mint">
                 <CalendarCheck className="size-3" /> Request your invite
               </Badge>
