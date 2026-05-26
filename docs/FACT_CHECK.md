@@ -19,7 +19,7 @@ If the deck is updated, this document MUST be re-checked.
 | `US$2bn+` lost on price-led MVNOs | Deck — "Combined invested capital: US$2.0bn+ · Combined investor return: near zero" | 33 |
 | `5.5×` LTV uplift (identity-led vs price-led) | Derived — US$428 ÷ US$78 ≈ 5.487 | 27 (derived) |
 | Event series "MVNO Nation Africa" | **External** — official event website at the time of writing | n/a |
-| Dates "9–10 June 2026" + venue "Cape Town" | **External** — official event website | n/a |
+| Dates "8 June 2026" + venue "Cape Town" | **External** — DSG-confirmed (event website was originally listed as 9–10 June; DSG updated to 8 June) | n/a |
 | Host bio: "Yaron Assabi · Group CEO & Founder, DSG" | Deck — cover slide + last slide | 1, 82 |
 | Host bio: "across the Americas, Europe and Africa" | Deck — world tour stops (Miami / Alicante / Cape Town) | 41 |
 
@@ -141,7 +141,7 @@ mechanics.
 |---|---|---|
 | `US$2bn+` lost on price-led MVNOs | Deck — slide 33 | 33 |
 | World tour: Miami `April 27–29, 2026` (delivered) | Deck — cover + last slide | 1, 82 |
-| World tour: Cape Town `9–10 June 2026` | External — official event website | n/a |
+| World tour: Cape Town `8 June 2026` | External — DSG-confirmed (originally listed as 9–10 June on the public agenda; updated to 8 June) | n/a |
 | World tour: Alicante (upcoming) | Deck — mentioned as a tour stop | 41, 82 |
 | Host: Yaron Assabi · Group CEO & Founder — DSG · yaron@cxg.co.za | Deck — last slide | 82 |
 | Commercial: Edward Wicks · Chief Commercial Officer, MVNE · edwardw@mvne.co.za | Deck — last slide | 82 |

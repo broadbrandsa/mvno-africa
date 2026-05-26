@@ -58,7 +58,7 @@ export function Agenda() {
       eyebrowTone="azure"
       title="What we'll cover in"
       highlight="Cape Town"
-      description="Four threads across two days — drawn directly from the MVNO Nation Africa 2026 agenda. Each one is the difference between an MVNO that runs the next decade and one that gets run over by it."
+      description="Four threads across the day — drawn directly from the MVNO Nation Africa 2026 agenda. Each one is the difference between an MVNO that runs the next decade and one that gets run over by it."
     >
       <div className="grid gap-4 md:grid-cols-2">
         {agendaTopics.map((topic, i) => {

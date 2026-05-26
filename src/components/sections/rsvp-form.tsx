@@ -76,7 +76,7 @@ export function RsvpForm() {
               <h2 className="text-balance text-3xl font-semibold leading-[1.05] tracking-tight sm:text-4xl lg:text-5xl">
                 See you in{" "}
                 <span className="bg-gradient-to-br from-mint-300 to-mint-500 bg-clip-text text-transparent">
-                  Cape Town, 9–10 June.
+                  Cape Town, 8 June.
                 </span>
               </h2>
               <p className="text-pretty text-base leading-relaxed text-fg-muted sm:text-lg">
@@ -90,7 +90,7 @@ export function RsvpForm() {
               </p>
 
               <ul className="space-y-2.5 pt-2 text-sm text-fg-muted">
-                <Bullet>Two days with the operators, investors and platform leaders building Africa&apos;s MVNO ecosystem</Bullet>
+                <Bullet>A day with the operators, investors and platform leaders building Africa&apos;s MVNO ecosystem</Bullet>
                 <Bullet>The 4-thread agenda: connectivity · digital services · case studies · partnerships</Bullet>
                 <Bullet>The full 5-pillar operating model, walked through live</Bullet>
                 <Bullet>Networking with attendees from across Africa and emerging markets</Bullet>

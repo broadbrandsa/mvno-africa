@@ -54,7 +54,7 @@ export function CTA() {
             <CountUp end={2} prefix="US$" suffix="bn+" /> chasing the
             wrong subscriber. The winners — Tesco, giffgaff, Lebara,
             Consumer Cellular — solved a specific problem for a defined
-            audience. Two days in {event.venue} with the team that&apos;s
+            audience. A day in {event.venue} with the team that&apos;s
             put that operating model in production at DStv and Boxer.
           </p>
         </Reveal>

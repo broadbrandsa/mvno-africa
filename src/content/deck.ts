@@ -2,7 +2,7 @@ export const event = {
   series: "MVNO Nation Africa",
   edition: "Cape Town 2026",
   venue: "Cape Town",
-  dates: "9–10 June 2026",
+  dates: "8 June 2026",
   status: "upcoming" as const,
   // Pre-event copy: the four agenda focus areas from the official site.
   agenda: [
@@ -133,7 +133,7 @@ export const worldTour = [
   {
     city: "Cape Town",
     region: "Africa",
-    dates: "9–10 June 2026",
+    dates: "8 June 2026",
     status: "current" as const,
   },
 ];

@@ -2,9 +2,9 @@
 
 ## Event details
 
-- **Date**: 9–10 June 2026 — sourced from the official MVNO Nation
-  Africa 2026 website. Hard-coded in `src/content/deck.ts` under the
-  `event` constant.
+- **Date**: 8 June 2026 — confirmed by DSG (updated from the original
+  9–10 June listing on the public agenda site). Hard-coded in
+  `src/content/deck.ts` under the `event` constant.
 - **Venue**: "Cape Town" only — specific venue (CTICC etc.) not yet
   confirmed, so the site copy stays at city level until DSG provides
   the venue name.

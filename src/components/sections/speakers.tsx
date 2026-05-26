@@ -28,7 +28,7 @@ export function Speakers() {
       eyebrowTone="azure"
       title="Who you'll meet in"
       highlight="Cape Town"
-      description="The team behind DSG — running CXG, MVNE, Broadbrand and the wider group — hosting the workshop and on the floor for the two days."
+      description="The team behind DSG — running CXG, MVNE, Broadbrand and the wider group — hosting the workshop and on the floor for the day."
     >
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {speakers.map((s, i) => {

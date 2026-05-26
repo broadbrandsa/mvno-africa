@@ -3,7 +3,7 @@
 ## What this is
 
 **MVNO Nation Africa 2026** is a standalone invitation site for the
-Cape Town stop of the DSG world tour. The event runs **9–10 June 2026**
+Cape Town stop of the DSG world tour. The event runs **8 June 2026**
 and is **invitation only** — visitors land here from a Mailchimp email
 sent to DSG's MVNO and telco contact database, read the event hook +
 agenda + sample sessions, then fill the form to request an invite.

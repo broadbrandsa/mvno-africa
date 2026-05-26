@@ -4,7 +4,7 @@ Invitation site for the Cape Town stop of the DSG MVNO Nation world
 tour. Visitors land from a Mailchimp email, read the event hook +
 agenda + 5 sample sessions, and submit an RSVP request to be invited.
 
-> **Cape Town · 9–10 June 2026 · Invitation only**
+> **Cape Town · 8 June 2026 · Invitation only**
 
 ## Quick start
 

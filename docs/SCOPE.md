@@ -7,7 +7,7 @@
 ## Sections included on `/`
 
 1. **Hero** — event hook ("Africa is going online…"), pre-event meta
-   strip ("Invitation only · Cape Town · 9–10 June 2026"), primary
+   strip ("Invitation only · Cape Town · 8 June 2026"), primary
    "Request your invite" CTA, hero stats (1.4B Africans · 60% still
    offline · 5.5× LTV uplift)
 2. **Agenda** — the 4 official focus areas from the MVNO Nation Africa

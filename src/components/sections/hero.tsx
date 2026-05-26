@@ -99,7 +99,7 @@ export function Hero() {
               <strong className="font-semibold text-fg">
                 MVNO Nation Africa 2026 in Cape Town this June
               </strong>
-              . Two days on unlocking connectivity, innovative digital
+              . A day on unlocking connectivity, innovative digital
               services, case studies from Africa and emerging markets,
               and the partnerships powering the next phase of growth.
             </p>
