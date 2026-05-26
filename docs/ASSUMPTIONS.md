@@ -2,10 +2,10 @@
 
 ## Event details
 
-- **Date**: 8 June 2026 — confirmed by DSG (updated from the original
+- **Date**: 8 June 2026 - confirmed by DSG (updated from the original
   9–10 June listing on the public agenda site). Hard-coded in
   `src/content/deck.ts` under the `event` constant.
-- **Venue**: "Cape Town" only — specific venue (CTICC etc.) not yet
+- **Venue**: "Cape Town" only - specific venue (CTICC etc.) not yet
   confirmed, so the site copy stays at city level until DSG provides
   the venue name.
 - **Agenda**: the four threads listed in the Agenda section are taken
@@ -18,7 +18,7 @@
   the site are taken from the v8 MVNO-Nation-Workshop-2026 deck (the
   same deck DSG just presented in Miami). Africa-specific stats in the
   hero (1.4B population, 60% offline) are widely-cited reference
-  figures — confirm sources before any external citation.
+  figures - confirm sources before any external citation.
 - **Directional strategy only**. The site previews what will be
   presented at the event. Specific investment, pricing or platform
   decisions need to be validated against the prospect's own data before
@@ -26,7 +26,7 @@
 
 ## Compliance and confidentiality
 
-- The site content is **open** — no NDA gate, no PDF download. The form
+- The site content is **open** - no NDA gate, no PDF download. The form
   is a soft RSVP request (name, work email, company, opt-in checkbox).
 - The form opt-in checkbox is GDPR/POPIA-friendly: it asks the visitor
   to confirm they'd like event details and acknowledges that the

@@ -20,7 +20,7 @@ export function Pillars() {
       eyebrowTone="azure"
       title="Five pillars."
       highlight="One operating system."
-      description="Each pillar is a discipline in its own right — together, they're the operating system of a modern MVNO. Every winner above has at least three; the leaders have all five."
+      description="Each pillar is a discipline in its own right - together, they're the operating system of a modern MVNO. Every winner above has at least three; the leaders have all five."
     >
       {/* Operating-system layout: 5 pillars across, foundation strip below. */}
       <div className="relative">
@@ -54,7 +54,7 @@ export function Pillars() {
                     </p>
                   </div>
 
-                  {/* Connector dot on the bottom edge — visual chain link. */}
+                  {/* Connector dot on the bottom edge - visual chain link. */}
                   <span
                     aria-hidden
                     className="pointer-events-none absolute -bottom-[5px] left-1/2 hidden size-2 -translate-x-1/2 rounded-full bg-azure-500/60 ring-4 ring-bg lg:block"
@@ -89,7 +89,7 @@ export function Pillars() {
             href="#rsvp"
             className="press inline-flex items-center gap-2 text-sm font-semibold text-mint-400 hover:text-mint-300"
           >
-            Each pillar gets its own playbook in Cape Town — 7
+            Each pillar gets its own playbook in Cape Town - 7
             implementation steps, with KPIs →
           </a>
         </div>

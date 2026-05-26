@@ -10,9 +10,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    "MVNO Nation Africa 2026 · Cape Town · 8 June — Request your invite",
+    "MVNO Nation Africa 2026 · Cape Town · 8 June - Request your invite",
   description:
-    "A day in Cape Town with the operators, investors and platform leaders building Africa's MVNO ecosystem. 8 June 2026. Invitation only — request yours from DSG.",
+    "A day in Cape Town with the operators, investors and platform leaders building Africa's MVNO ecosystem. 8 June 2026. Invitation only - request yours from DSG.",
   metadataBase: new URL("https://mvno-africa.vercel.app"),
   openGraph: {
     title: "MVNO Nation Africa 2026 · Cape Town · 8 June",

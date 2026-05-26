@@ -8,7 +8,7 @@ const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
  * Writes to `public.event_invites` with event_slug = "mvno-nation-africa-2026"
  * so a single Supabase project can hold invites for multiple events.
  *
- * Falls back to console.log when Supabase env vars are unset — useful
+ * Falls back to console.log when Supabase env vars are unset - useful
  * during early dev before the Supabase project is provisioned.
  */
 export async function POST(request: Request) {
@@ -77,7 +77,7 @@ export async function POST(request: Request) {
       );
     }
   } else {
-    // Env vars not configured — log to server console so dev still works.
+    // Env vars not configured - log to server console so dev still works.
     // Wire SUPABASE_* env vars to persist (see /docs/DEPLOYMENT.md).
     console.log("[rsvp] (no supabase configured) recorded:", {
       event: "mvno-nation-africa-2026",

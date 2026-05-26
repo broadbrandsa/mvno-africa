@@ -12,7 +12,7 @@ export function SiteFooter() {
               href="https://www.dsg.co.za/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Digital Solutions Group — opens in a new tab"
+              aria-label="Digital Solutions Group - opens in a new tab"
               className="press inline-block transition-opacity hover:opacity-80"
             >
               <Image
@@ -24,7 +24,7 @@ export function SiteFooter() {
               />
             </a>
             <p className="max-w-md text-sm text-fg-muted">
-              Digital Solutions Group — strategy, customer experience, MVNO
+              Digital Solutions Group - strategy, customer experience, MVNO
               enablement and platform engineering, delivered as one team.
             </p>
           </div>
@@ -48,7 +48,7 @@ export function SiteFooter() {
                           ? "opacity-100"
                           : "opacity-70 hover:opacity-100",
                       )}
-                      aria-label={`${b.name} — opens in a new tab`}
+                      aria-label={`${b.name} - opens in a new tab`}
                     >
                       <Image
                         src={b.src}

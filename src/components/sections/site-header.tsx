@@ -30,7 +30,7 @@ export function SiteHeader() {
           href="https://www.dsg.co.za/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Digital Solutions Group — opens in a new tab"
+          aria-label="Digital Solutions Group - opens in a new tab"
           className="press flex items-center gap-3 transition-opacity hover:opacity-90"
         >
           <Image

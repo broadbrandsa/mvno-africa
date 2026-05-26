@@ -13,19 +13,19 @@ import {
 const agendaTopics = [
   {
     title: "Unlock connectivity",
-    body: "How MVNOs can unlock connectivity for the underserved — closing Africa's digital divide and reaching the next billion subscribers.",
+    body: "How MVNOs can unlock connectivity for the underserved - closing Africa's digital divide and reaching the next billion subscribers.",
     Icon: Wifi,
     tone: "mint" as const,
   },
   {
     title: "Innovative digital services",
-    body: "Beyond voice and data — opportunities to deliver financial services, content, security and identity through the SIM.",
+    body: "Beyond voice and data - opportunities to deliver financial services, content, security and identity through the SIM.",
     Icon: Sparkles,
     tone: "azure" as const,
   },
   {
     title: "Real-world case studies",
-    body: "What's working — from across Africa and emerging markets. The operating models behind the MVNOs already at scale.",
+    body: "What's working - from across Africa and emerging markets. The operating models behind the MVNOs already at scale.",
     Icon: Building2,
     tone: "mint" as const,
   },
@@ -58,7 +58,7 @@ export function Agenda() {
       eyebrowTone="azure"
       title="What we'll cover in"
       highlight="Cape Town"
-      description="Four threads across the day — drawn directly from the MVNO Nation Africa 2026 agenda. Each one is the difference between an MVNO that runs the next decade and one that gets run over by it."
+      description="Four threads across the day - drawn directly from the MVNO Nation Africa 2026 agenda. Each one is the difference between an MVNO that runs the next decade and one that gets run over by it."
     >
       <div className="grid gap-4 md:grid-cols-2">
         {agendaTopics.map((topic, i) => {

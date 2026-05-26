@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 /**
  * Subtle scroll-driven parallax wrapper around a background image.
  *
- * The outer container clips to the section bounds. An inner wrapper —
- * deliberately taller than the clip area — holds the image and is the
+ * The outer container clips to the section bounds. An inner wrapper -
+ * deliberately taller than the clip area - holds the image and is the
  * element we translate on scroll. The vertical "buffer" prevents image
  * edges from peeking into the section as the inner wrapper moves.
  *

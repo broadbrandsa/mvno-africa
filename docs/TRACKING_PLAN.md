@@ -36,9 +36,9 @@ back to the form.
 
 ## Recommended analytics providers
 
-- **Vercel Web Analytics** — drop-in via `@vercel/analytics`, zero
+- **Vercel Web Analytics** - drop-in via `@vercel/analytics`, zero
   config, privacy-respecting. Best baseline for traffic + page metrics.
-- **Google Analytics 4** — useful if existing DSG marketing reporting
+- **Google Analytics 4** - useful if existing DSG marketing reporting
   already runs through GA4. Add via the official `GoogleAnalytics`
   component (App Router-compatible) and a measurement ID env var.
 
@@ -73,7 +73,7 @@ name, work email, email domain, company, plus timestamp + referrer.
 ## Conversion goals
 
 - **Primary**: RSVP form submissions (`form_success` count)
-- **Secondary**: `contact_click` — direct outreach to Yaron or Edward,
+- **Secondary**: `contact_click` - direct outreach to Yaron or Edward,
   often a higher-value signal than the form
 - **Quality signal**: scroll depth past the agenda + at least one
   nugget section (visitor consumed the value before submitting)

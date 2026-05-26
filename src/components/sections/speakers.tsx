@@ -28,7 +28,7 @@ export function Speakers() {
       eyebrowTone="azure"
       title="Who you'll meet in"
       highlight="Cape Town"
-      description="The team behind DSG — running CXG, MVNE, Broadbrand and the wider group — hosting the workshop and on the floor for the day."
+      description="The team behind DSG - running CXG, MVNE, Broadbrand and the wider group - hosting the workshop and on the floor for the day."
     >
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {speakers.map((s, i) => {
@@ -59,7 +59,7 @@ export function Speakers() {
                     href={s.brandUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label={`${s.brand} — opens in a new tab`}
+                    aria-label={`${s.brand} - opens in a new tab`}
                     className={cn(
                       "press mt-2 inline-flex items-center gap-1 text-sm font-semibold transition-colors",
                       a.brandText,

@@ -52,8 +52,8 @@ export function CTA() {
           <p className="mt-6 max-w-2xl text-pretty text-base leading-relaxed text-fg-muted sm:text-lg">
             A generation of price-led MVNOs lost{" "}
             <CountUp end={2} prefix="US$" suffix="bn+" /> chasing the
-            wrong subscriber. The winners — Tesco, giffgaff, Lebara,
-            Consumer Cellular — solved a specific problem for a defined
+            wrong subscriber. The winners - Tesco, giffgaff, Lebara,
+            Consumer Cellular - solved a specific problem for a defined
             audience. A day in {event.venue} with the team that&apos;s
             put that operating model in production at DStv and Boxer.
           </p>
@@ -67,7 +67,7 @@ export function CTA() {
               className="shimmer press"
             />
             <a
-              href={`mailto:${event.host.email}?subject=MVNO Nation Africa 2026 — Cape Town inquiry`}
+              href={`mailto:${event.host.email}?subject=MVNO Nation Africa 2026 - Cape Town inquiry`}
               className="press inline-flex h-12 items-center gap-2 rounded-full border border-white/15 bg-white/[0.04] px-6 text-sm font-semibold text-fg backdrop-blur transition-colors hover:bg-white/[0.10]"
             >
               Talk to the team

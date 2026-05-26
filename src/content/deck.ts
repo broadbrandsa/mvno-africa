@@ -90,7 +90,7 @@ export const speakers = [
     role: "CEO",
     brand: "CXG",
     brandUrl: "https://cxg.co.za/",
-    bio: "Runs DSG's customer experience group — the contact-centre footprint behind DStv Internet and Boxer Telecom.",
+    bio: "Runs DSG's customer experience group - the contact-centre footprint behind DStv Internet and Boxer Telecom.",
     accent: "azure" as const,
   },
   {
@@ -107,7 +107,7 @@ export const speakers = [
     name: "Vincent Maher",
     role: "CEO",
     brand: "Broadbrand",
-    // TODO: verify this URL — Broadbrand's public domain wasn't in the
+    // TODO: verify this URL - Broadbrand's public domain wasn't in the
     // deck. The default below matches the South African naming pattern
     // of the other group brands. Update if Broadbrand uses something
     // different.
@@ -256,7 +256,7 @@ export const caseStudies = [
       { value: "24/7", label: "Self-service availability" },
     ],
     bullets: [
-      "WhatsApp, voice, live chat, email, app — single customer view",
+      "WhatsApp, voice, live chat, email, app - single customer view",
       "Integrated middleware API for full self-service",
       "BOT manages nearly half of interactions with no agent",
       "Capacity scales dynamically with subscriber growth",
@@ -321,7 +321,7 @@ export const cvpTiers = [
   {
     tier: "Tier 1",
     name: "Functional",
-    question: "Data, voice, SMS — and price.",
+    question: "Data, voice, SMS - and price.",
     body: "It matters, but it doesn't differentiate. Any MVNO competing only here is fully interchangeable.",
     tone: "default" as const,
   },
@@ -346,7 +346,7 @@ export const winningMoves = [
   {
     n: "04",
     title: "Choose the right MVNE partner",
-    body: "Your MVNE is your foundation — it determines speed to market, scalability and technical capability. The right partner cuts time-to-market by 60%.",
+    body: "Your MVNE is your foundation - it determines speed to market, scalability and technical capability. The right partner cuts time-to-market by 60%.",
   },
   {
     n: "05",
@@ -440,7 +440,7 @@ export const deckChapters = [
     summary: "The Americas landscape, the 5 pillars, CX maturity stages, and the case studies proving it already works.",
     highlights: [
       "The Americas MVNO landscape, 2026",
-      "Competitive intelligence — Trustpilot + JD Power scorecard",
+      "Competitive intelligence - Trustpilot + JD Power scorecard",
       "5 cohorts of US MVNO CX challenge",
       "What separates 4★+ MVNOs from 1★",
       "LATAM CX gap analysis & opportunity",
@@ -454,52 +454,52 @@ export const deckChapters = [
   {
     part: "Part Two",
     title: "Why price should not be your strategy",
-    summary: "A commercial blueprint for operators who want to build businesses — not churn engines. Three continents, one conversation.",
+    summary: "A commercial blueprint for operators who want to build businesses - not churn engines. Three continents, one conversation.",
     highlights: [
-      "It has never been easier to launch — and never harder to profit",
-      "Price feels like the fastest lever — here is what it actually buys you",
-      "Why churn — not wholesale rate — decides profitability",
+      "It has never been easier to launch - and never harder to profit",
+      "Price feels like the fastest lever - here is what it actually buys you",
+      "Why churn - not wholesale rate - decides profitability",
       "Two restaurants, two business models, two destinies",
       "9 case studies of price-led failures (US$2bn+ burned)",
-      "Who buys meaning, not megabytes — 6 identity-led segments",
-      "The CVP pyramid — three tiers of customer value",
+      "Who buys meaning, not megabytes - 6 identity-led segments",
+      "The CVP pyramid - three tiers of customer value",
       "What the winners (Tesco, giffgaff, Lebara, Consumer Cellular) share",
       "Five pitfalls that keep showing up in every market",
-      "What to do on Monday morning — 0–3, 3–12, 12+ months",
+      "What to do on Monday morning - 0–3, 3–12, 12+ months",
     ],
   },
   {
     part: "Part Three",
-    title: "Xanite — the platform layer",
+    title: "Xanite - the platform layer",
     summary: "A purpose-built customer data platform that turns the blueprint into a production operating model.",
     highlights: [
-      "MVNOs sit on a goldmine of subscriber data — most can't act on it",
+      "MVNOs sit on a goldmine of subscriber data - most can't act on it",
       "Composable architecture: CDP · segmentation · journey · AI",
-      "One subscriber, one profile — real-time identity stitching",
+      "One subscriber, one profile - real-time identity stitching",
       "Segments that change as fast as your subscribers do",
-      "Native consent management — POPIA · GDPR · CCPA out of the box",
+      "Native consent management - POPIA · GDPR · CCPA out of the box",
       "Voice-of-customer: capture, classify, prioritise, loop back",
       "Journey orchestration with consent-checked sends",
       "AI built in: churn, NBA, LTV, sentiment, anomaly, generative",
       "Governance: ISO 27001 + SOC 2, data residency, encryption",
-      "From data lake to revenue lever — measured business impact",
+      "From data lake to revenue lever - measured business impact",
     ],
   },
   {
     part: "Part Four",
-    title: "Digital Mobile — light MVNO platform",
+    title: "Digital Mobile - light MVNO platform",
     summary: "Skip the heavy lifting. Brand it, layer in your VAS, launch in 90 days with global eSIM coverage from day one.",
     highlights: [
       "What a light MVNO looks like in practice",
-      "Connectivity that moves with you — dual eSIM, 190+ countries",
+      "Connectivity that moves with you - dual eSIM, 190+ countries",
       "Same phone. Same calls. Just easier.",
       "Five design principles for how people actually live",
       "VAS roadmap: digital security, cyber insurance, travel, devices",
-      "Digital Mobile vs traditional providers — feature comparison",
-      "Why a CDP matters now — CX is the moat, data is the source",
-      "Why Xanite — MVNO-native, day-one ready",
+      "Digital Mobile vs traditional providers - feature comparison",
+      "Why a CDP matters now - CX is the moat, data is the source",
+      "Why Xanite - MVNO-native, day-one ready",
       "Pre-built MVNE, BSS, OSS, CCaaS, BI integrations",
-      "Transparent commercial model — per-subscriber pricing",
+      "Transparent commercial model - per-subscriber pricing",
     ],
   },
 ] as const;
@@ -508,7 +508,7 @@ export const platforms = [
   {
     name: "Xanite",
     tagline: "Real-time CDP for MVNOs",
-    body: "Unifies CDR, billing, network, app and support data into a real-time customer profile. Layers on consent management, segmentation, journey orchestration and AI — all in one MVNO-purpose-built platform.",
+    body: "Unifies CDR, billing, network, app and support data into a real-time customer profile. Layers on consent management, segmentation, journey orchestration and AI - all in one MVNO-purpose-built platform.",
     metrics: [
       { value: "3.2×", label: "Upsell campaign acceptance" },
       { value: "47%", label: "Reduction in time-to-launch" },
@@ -519,7 +519,7 @@ export const platforms = [
   {
     name: "Digital Mobile",
     tagline: "Light MVNO platform · eSIM-first",
-    body: "Skip the heavy lifting — BSS, OSS, MNO wholesale, app, support — all pre-integrated and supplied as a service. Brand it, layer in your VAS, launch in 90 days.",
+    body: "Skip the heavy lifting - BSS, OSS, MNO wholesale, app, support - all pre-integrated and supplied as a service. Brand it, layer in your VAS, launch in 90 days.",
     metrics: [
       { value: "90 days", label: "Time-to-market vs 18-month norm" },
       { value: "190+", label: "Countries · global eSIM day one" },

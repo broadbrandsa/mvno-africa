@@ -14,7 +14,7 @@ mvno-nation-africa/
 │       └── 20260515000000_create_event_invites.sql
 ├── src/
 │   ├── app/
-│   │   ├── api/rsvp/route.ts   # POST handler — validates + writes to Supabase
+│   │   ├── api/rsvp/route.ts   # POST handler - validates + writes to Supabase
 │   │   ├── globals.css         # Tailwind v4 theme + utilities
 │   │   ├── layout.tsx          # Root HTML, font, metadata
 │   │   └── page.tsx            # Landing-page composition
@@ -53,11 +53,11 @@ mvno-nation-africa/
 ## Section composition rules
 
 - **One file per section** under `src/components/sections/`.
-- **Section shell** — `Section` (in `section.tsx`) provides the eyebrow
+- **Section shell** - `Section` (in `section.tsx`) provides the eyebrow
   badge, headline, sub-copy and content container. New sections should
   use it for visual consistency.
 - **Copy lives in components** for now. The `event` constant + the
-  agenda topics are the only data-driven bits — the rest of the copy
+  agenda topics are the only data-driven bits - the rest of the copy
   is inline in JSX (intentional: makes per-event customisation easy
   without a CMS).
 - **Server components by default**. Only flip to `"use client"` when a
@@ -80,15 +80,15 @@ mvno-nation-africa/
 
 This is a **fork** of `../mvno-nation-2026`. Files that differ:
 
-- `src/content/deck.ts` — `event` constant, `worldTour` array
-- `src/components/sections/hero.tsx` — new headline, new stats, new CTAs
-- `src/components/sections/agenda.tsx` — **new file** (not in Miami)
-- `src/components/sections/rsvp-form.tsx` — **renamed** from download-form, fields + logic differ
-- `src/components/sections/cta.tsx` — "See you in Cape Town" framing
-- `src/components/invite-cta.tsx` — **new file**, replaces `deck-cta.tsx`
-- `src/lib/invite-access.ts` — **new file**, replaces `deck-access.ts`
-- `src/app/api/rsvp/route.ts` — **renamed** from access/route, writes to event_invites
-- `supabase/migrations/...event_invites.sql` — **new migration**
+- `src/content/deck.ts` - `event` constant, `worldTour` array
+- `src/components/sections/hero.tsx` - new headline, new stats, new CTAs
+- `src/components/sections/agenda.tsx` - **new file** (not in Miami)
+- `src/components/sections/rsvp-form.tsx` - **renamed** from download-form, fields + logic differ
+- `src/components/sections/cta.tsx` - "See you in Cape Town" framing
+- `src/components/invite-cta.tsx` - **new file**, replaces `deck-cta.tsx`
+- `src/lib/invite-access.ts` - **new file**, replaces `deck-access.ts`
+- `src/app/api/rsvp/route.ts` - **renamed** from access/route, writes to event_invites
+- `supabase/migrations/...event_invites.sql` - **new migration**
 
 Files identical to Miami (or near-enough): all the animation primitives,
 the design tokens in globals.css, the brand logos and parallax bg

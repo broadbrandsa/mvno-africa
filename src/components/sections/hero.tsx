@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 // See docs/FACT_CHECK.md for slide references.
 const heroStats = [
   {
-    // Slide 25 — "20+ Licensed MVNOs in South Africa"
+    // Slide 25 - "20+ Licensed MVNOs in South Africa"
     end: 20,
     suffix: "+",
     label: "MVNOs in South Africa",
@@ -20,7 +20,7 @@ const heroStats = [
     tone: "mint" as const,
   },
   {
-    // Slide 33 — "Combined invested capital: US$2.0bn+ · Combined investor return: near zero"
+    // Slide 33 - "Combined invested capital: US$2.0bn+ · Combined investor return: near zero"
     end: 2,
     prefix: "US$",
     suffix: "bn+",
@@ -29,7 +29,7 @@ const heroStats = [
     tone: "rose" as const,
   },
   {
-    // Derived from slide 27 — US$428 (identity-led) ÷ US$78 (price-led) ≈ 5.49
+    // Derived from slide 27 - US$428 (identity-led) ÷ US$78 (price-led) ≈ 5.49
     end: 5.5,
     decimals: 1,
     suffix: "×",
@@ -53,7 +53,7 @@ export function Hero() {
         alt=""
         speed={0.25}
       />
-      {/* Side gradient — heavy on the left where the headline lives. */}
+      {/* Side gradient - heavy on the left where the headline lives. */}
       <div
         className="absolute inset-0 z-[1] bg-[linear-gradient(90deg,rgba(7,17,31,0.78)_0%,rgba(10,22,40,0.4)_55%,rgba(10,22,40,0.05)_100%)]"
         aria-hidden
@@ -63,7 +63,7 @@ export function Hero() {
         className="absolute inset-0 z-[1] bg-[linear-gradient(180deg,transparent_0%,transparent_55%,rgba(10,22,40,0.7)_85%,#0a1628_100%)]"
         aria-hidden
       />
-      {/* Cursor-following ambient spotlight — adds life to the hero. */}
+      {/* Cursor-following ambient spotlight - adds life to the hero. */}
       <CursorSpotlight />
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 pb-20 pt-20 sm:px-10 lg:pb-24 lg:pt-28">
@@ -139,7 +139,7 @@ export function Hero() {
                 <span className="font-semibold text-fg">
                   {event.host.name}
                 </span>{" "}
-                — Group CEO &amp; Founder, DSG. Building MVNOs,
+                - Group CEO &amp; Founder, DSG. Building MVNOs,
                 customer experience and digital platforms across the
                 Americas, Europe and Africa.
               </p>
@@ -190,7 +190,7 @@ export function Hero() {
                       href={brand.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label={`${brand.name} — opens in a new tab`}
+                      aria-label={`${brand.name} - opens in a new tab`}
                       className={cn(
                         "press flex h-full items-center transition-all duration-300 hover:scale-[1.06] hover:opacity-100",
                         isLead ? "opacity-100" : "opacity-60",

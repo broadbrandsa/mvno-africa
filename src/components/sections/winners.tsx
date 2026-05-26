@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 export function Winners() {
   return (
     <div className="relative isolate overflow-hidden">
-      {/* Mint ambient blob — the success counterpart to the red graveyard. */}
+      {/* Mint ambient blob - the success counterpart to the red graveyard. */}
       <div
         className="aurora float right-[-10rem] top-1/4 h-[32rem] w-[32rem]"
         style={{ ["--aurora" as string]: "rgba(16, 185, 129, 0.18)" }}

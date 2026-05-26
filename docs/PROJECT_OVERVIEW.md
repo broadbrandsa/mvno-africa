@@ -4,7 +4,7 @@
 
 **MVNO Nation Africa 2026** is a standalone invitation site for the
 Cape Town stop of the DSG world tour. The event runs **8 June 2026**
-and is **invitation only** — visitors land here from a Mailchimp email
+and is **invitation only** - visitors land here from a Mailchimp email
 sent to DSG's MVNO and telco contact database, read the event hook +
 agenda + sample sessions, then fill the form to request an invite.
 
@@ -27,14 +27,14 @@ with separate domains.
 A row in the Supabase `event_invites` table with `event_slug =
 'mvno-nation-africa-2026'`. Each row is a person who wants to attend
 and is ready to be vetted + invited. The site does **not** sell tickets
-or guarantee attendance — invitations are confirmed by the DSG team
+or guarantee attendance - invitations are confirmed by the DSG team
 case-by-case.
 
 ## Deployment environment
 
-- **Hosting**: Vercel (Next.js framework preset) — separate project
+- **Hosting**: Vercel (Next.js framework preset) - separate project
   from Miami
-- **Domain**: TBD — placeholder `mvno-nation-africa.vercel.app`
+- **Domain**: TBD - placeholder `mvno-nation-africa.vercel.app`
 - **Branch strategy**: `main` deploys to production; preview branches
   auto-deploy on PRs once GitHub is wired up
 
@@ -46,7 +46,7 @@ case-by-case.
 
 ## Tech stack
 
-Identical to the Miami project — only the content layer differs.
+Identical to the Miami project - only the content layer differs.
 
 | Layer        | Choice                                         |
 | ------------ | ---------------------------------------------- |
@@ -56,4 +56,4 @@ Identical to the Miami project — only the content layer differs.
 | UI primitives | shadcn-aligned conventions, lucide-react icons |
 | Package mgr  | pnpm                                            |
 | Hosting      | Vercel                                          |
-| Database     | Supabase (Postgres) — table `public.event_invites` |
+| Database     | Supabase (Postgres) - table `public.event_invites` |

@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
  *   <CountUp end={5.5} decimals={1} suffix="×" />
  *   <CountUp end={2} prefix="US$" suffix="bn+" />
  *
- * Honours `prefers-reduced-motion: reduce` — falls back to the final value.
+ * Honours `prefers-reduced-motion: reduce` - falls back to the final value.
  */
 export function CountUp({
   end,

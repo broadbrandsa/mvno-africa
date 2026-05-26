@@ -10,16 +10,16 @@ const compactCases = [
     name: "DStv Internet",
     tagline: "Integrated CX excellence at scale",
     Icon: Tv,
-    // Source: deck slide 22 — "250,000 subscribers" / "250k Active subscribers"
+    // Source: deck slide 22 - "250,000 subscribers" / "250k Active subscribers"
     headlineEnd: 250,
     headlineSuffix: "k",
     headlineLabel: "Active subscribers",
     metrics: [
-      // Source: deck slide 22 — 85.8% CSAT score (target: 80%)
+      // Source: deck slide 22 - 85.8% CSAT score (target: 80%)
       { value: "85.8%", label: "CSAT", end: 85.8, suffix: "%", decimals: 1 },
-      // Source: deck slide 22 — 16s First response time (FRT)
+      // Source: deck slide 22 - 16s First response time (FRT)
       { value: "16s", label: "First response", end: 16, suffix: "s" },
-      // Source: deck slide 22 — 99.5% ticket resolution within 24 hours
+      // Source: deck slide 22 - 99.5% ticket resolution within 24 hours
       { value: "99.5%", label: "24h resolution", end: 99.5, suffix: "%", decimals: 1 },
     ],
     tone: "azure" as const,
@@ -49,11 +49,11 @@ export function CaseStudies() {
   return (
     <Section
       id="case-studies"
-      eyebrow="Session 05 · The proof — both South African"
+      eyebrow="Session 05 · The proof - both South African"
       eyebrowTone="mint"
       title="Two African MVNOs. One"
       highlight="operating model."
-      description="Two production MVNO case studies from the DSG group — both delivered out of CXG's Johannesburg and Cape Town contact-centre footprint (1,180+ seats). Live proof that the operating model in the deck is built here. The full architecture, integrations, SLAs and capacity model are walked through in Cape Town."
+      description="Two production MVNO case studies from the DSG group - both delivered out of CXG's Johannesburg and Cape Town contact-centre footprint (1,180+ seats). Live proof that the operating model in the deck is built here. The full architecture, integrations, SLAs and capacity model are walked through in Cape Town."
     >
       <div className="grid gap-6 lg:grid-cols-2">
         {compactCases.map((cs, idx) => {
@@ -85,7 +85,7 @@ export function CaseStudies() {
                   <Badge tone={cs.tone}>Case study</Badge>
                 </div>
 
-                {/* Massive headline metric — the visual anchor of each card. */}
+                {/* Massive headline metric - the visual anchor of each card. */}
                 <div className="mt-8 flex items-baseline gap-3">
                   <span
                     className={cn(

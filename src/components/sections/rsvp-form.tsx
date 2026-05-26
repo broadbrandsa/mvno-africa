@@ -43,7 +43,7 @@ export function RsvpForm() {
         <div className="grid gap-10 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
           <Reveal>
             <div className="max-w-xl space-y-6">
-              {/* Cape Town CBD postcard — Pieter van Noorden / Unsplash.
+              {/* Cape Town CBD postcard - Pieter van Noorden / Unsplash.
                   Vertical photo framed like a passport stamp to anchor the
                   "you're going to Cape Town" idea visually. */}
               <div className="relative overflow-hidden rounded-2xl border border-white/10 shadow-2xl shadow-black/40">
@@ -253,7 +253,7 @@ function FormCard() {
           />
           <span className="text-xs leading-relaxed text-fg-muted">
             I&apos;d like to receive event details and updates from DSG.
-            I understand my submission doesn&apos;t guarantee a seat —
+            I understand my submission doesn&apos;t guarantee a seat -
             invitations are confirmed on a case-by-case basis.
           </span>
         </label>
@@ -291,7 +291,7 @@ function FormCard() {
 
         <p className="text-center text-[11px] leading-relaxed text-fg-faint">
           We&apos;ll respond within 2 working days. One follow-up email
-          max — we never share your details.
+          max - we never share your details.
         </p>
       </div>
     </form>

@@ -7,7 +7,7 @@ import { Reveal } from "@/components/animated/reveal";
 export function Failures() {
   return (
     <div className="relative isolate overflow-hidden">
-      {/* Red ambient blob — the danger signal of this section. */}
+      {/* Red ambient blob - the danger signal of this section. */}
       <div
         className="aurora float left-[-8rem] top-1/4 h-[30rem] w-[30rem]"
         style={{ ["--aurora" as string]: "rgba(239, 68, 68, 0.16)" }}
@@ -27,7 +27,7 @@ export function Failures() {
         eyebrowTone="rose"
         title="Every price-led MVNO ended"
         highlight="the same way"
-        description="Combined invested capital across a generation of price-first MVNO launches: $2bn+ — combined investor return: near zero. Three of nine cautionary tales below; the full gallery is walked through in Cape Town. Africa has its own price-led MVNO graveyard — and the same lessons apply."
+        description="Combined invested capital across a generation of price-first MVNO launches: $2bn+ - combined investor return: near zero. Three of nine cautionary tales below; the full gallery is walked through in Cape Town. Africa has its own price-led MVNO graveyard - and the same lessons apply."
       >
         {/* Headline kill-stat banner. */}
         <Reveal>
@@ -90,7 +90,7 @@ export function Failures() {
               href="#rsvp"
               className="press inline-flex items-center gap-2 text-sm font-semibold text-mint-400 hover:text-mint-300"
             >
-              See all 9 failures — and what they had in common · in Cape Town
+              See all 9 failures - and what they had in common · in Cape Town
               →
             </a>
           </div>

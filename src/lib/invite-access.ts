@@ -10,7 +10,7 @@ import { useSyncExternalStore } from "react";
  *
  * The server (Supabase `event_invites` table) is the source of truth
  * for who actually requested. localStorage is just a UX-smoothing
- * hint — it can be cleared without losing data.
+ * hint - it can be cleared without losing data.
  */
 
 export const STORAGE_KEY = "mvnoNationAfricaInvite.v1";

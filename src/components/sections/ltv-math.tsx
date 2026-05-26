@@ -34,7 +34,7 @@ export function LtvMath() {
     <Section
       eyebrow="Session 01 · The math"
       eyebrowTone="amber"
-      title="Why churn — not wholesale rate —"
+      title="Why churn - not wholesale rate -"
       highlight="decides profitability in Africa"
       description="Drop monthly churn from 5% to 3% and LTV rises 67%. Drop wholesale rate by 10% and LTV moves about 10%. Retention compounds. Discounting does not."
     >
@@ -82,7 +82,7 @@ export function LtvMath() {
                       </p>
                     </div>
 
-                    {/* Animated bar — width relative to max LTV in the comparison. */}
+                    {/* Animated bar - width relative to max LTV in the comparison. */}
                     <div className="relative h-4 overflow-hidden rounded-full bg-white/[0.04] ring-1 ring-inset ring-white/5">
                       <div
                         className={cn(
@@ -142,9 +142,9 @@ export function LtvMath() {
           </div>
           <p className="text-fg-muted">
             <span className="font-semibold text-mint-300">5.5×</span> the LTV of
-            the price-led operator — for the cost of building a brand customers
+            the price-led operator - for the cost of building a brand customers
             belong to. The full math, the CVP pyramid, and the 24-month
-            commercial model — walked through live in Cape Town.
+            commercial model - walked through live in Cape Town.
           </p>
         </div>
       </Reveal>

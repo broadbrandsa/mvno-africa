@@ -17,7 +17,7 @@ pnpm lint                         # eslint
 ```
 
 Without Supabase env vars, form submissions still validate and succeed
-— rows are `console.log`'d on the server only. See
+- rows are `console.log`'d on the server only. See
 [`docs/DEPLOYMENT.md`](./docs/DEPLOYMENT.md) for the three Supabase
 setup options (recommended: reuse the Miami project, add the
 `event_invites` table next to `leads`).
@@ -30,19 +30,19 @@ Identical to the Miami sibling site (`../mvno-nation-2026`).
 - **TypeScript 5**
 - **Tailwind CSS v4** (CSS-first theme in `src/app/globals.css`)
 - **lucide-react** icons
-- **Supabase** (`event_invites` table — see migration)
+- **Supabase** (`event_invites` table - see migration)
 - **pnpm**
 
 ## Project documentation
 
 See [`/docs`](./docs):
 
-- [`PROJECT_OVERVIEW.md`](./docs/PROJECT_OVERVIEW.md) — what this is and why
-- [`ASSUMPTIONS.md`](./docs/ASSUMPTIONS.md) — content & confidentiality caveats
-- [`SCOPE.md`](./docs/SCOPE.md) — pages, sections, milestones
-- [`STRUCTURE.md`](./docs/STRUCTURE.md) — folder map and content rules
-- [`TRACKING_PLAN.md`](./docs/TRACKING_PLAN.md) — analytics + form events
-- [`DEPLOYMENT.md`](./docs/DEPLOYMENT.md) — Vercel setup & Supabase migration
+- [`PROJECT_OVERVIEW.md`](./docs/PROJECT_OVERVIEW.md) - what this is and why
+- [`ASSUMPTIONS.md`](./docs/ASSUMPTIONS.md) - content & confidentiality caveats
+- [`SCOPE.md`](./docs/SCOPE.md) - pages, sections, milestones
+- [`STRUCTURE.md`](./docs/STRUCTURE.md) - folder map and content rules
+- [`TRACKING_PLAN.md`](./docs/TRACKING_PLAN.md) - analytics + form events
+- [`DEPLOYMENT.md`](./docs/DEPLOYMENT.md) - Vercel setup & Supabase migration
 
 ## Editing event details
 
@@ -54,7 +54,7 @@ or in `src/components/sections/agenda.tsx` for the icons + UI copy.
 ## Hero photo (placeholder)
 
 The hero currently uses the Miami beach photo from the sibling project
-as a placeholder. **Swap it before launch** — drop a Cape Town photo
+as a placeholder. **Swap it before launch** - drop a Cape Town photo
 at [`public/images/hero-bg.jpg`](./public/images/hero-bg.jpg) (Table
 Mountain, V&A Waterfront, CTICC, etc. all work). The parallax + overlay
 adapt automatically.
@@ -73,10 +73,10 @@ folder + git repo + Vercel project so they ship independently:
 - The Miami project is post-event (deck-download lead magnet)
 - This project is pre-event (RSVP capture for Cape Town)
 - They share the same design system, animation primitives, and 5 core
-  deck nuggets — only the framing copy and the form purpose differ
+  deck nuggets - only the framing copy and the form purpose differ
 - Both use Supabase, but each writes to its own table (`leads` vs
   `event_invites`) so analytics stay clean
 
 When the Miami site picks up a polish/refactor that would benefit the
-Africa site, cherry-pick by hand. There's no shared package — this is
+Africa site, cherry-pick by hand. There's no shared package - this is
 a deliberate fork, not a monorepo.

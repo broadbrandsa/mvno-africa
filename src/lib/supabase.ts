@@ -9,7 +9,7 @@ let cached: SupabaseClient | null | undefined;
  * the caller can fall back to a no-op (e.g. console.log only) without
  * hard-failing local dev.
  *
- * Never expose this client to the browser — the service-role key
+ * Never expose this client to the browser - the service-role key
  * bypasses Row Level Security.
  */
 export function getSupabaseAdmin(): SupabaseClient | null {
