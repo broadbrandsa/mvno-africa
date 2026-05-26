@@ -20,7 +20,7 @@ export function Pillars() {
       eyebrowTone="azure"
       title="Five pillars."
       highlight="One operating system."
-      description="Each pillar is a discipline in its own right — together, they're the operating system of a modern MVNO. Africa's MVNO leaders already have at least three; the ones that will own the next decade will have all five."
+      description="Each pillar is a discipline in its own right — together, they're the operating system of a modern MVNO. Every winner above has at least three; the leaders have all five."
     >
       {/* Operating-system layout: 5 pillars across, foundation strip below. */}
       <div className="relative">

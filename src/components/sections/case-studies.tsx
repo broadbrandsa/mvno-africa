@@ -10,12 +10,16 @@ const compactCases = [
     name: "DStv Internet",
     tagline: "Integrated CX excellence at scale",
     Icon: Tv,
+    // Source: deck slide 22 — "250,000 subscribers" / "250k Active subscribers"
     headlineEnd: 250,
-    headlineSuffix: "k+",
+    headlineSuffix: "k",
     headlineLabel: "Active subscribers",
     metrics: [
-      { value: "92%", label: "CSAT", end: 92, suffix: "%" },
+      // Source: deck slide 22 — 85.8% CSAT score (target: 80%)
+      { value: "85.8%", label: "CSAT", end: 85.8, suffix: "%", decimals: 1 },
+      // Source: deck slide 22 — 16s First response time (FRT)
       { value: "16s", label: "First response", end: 16, suffix: "s" },
+      // Source: deck slide 22 — 99.5% ticket resolution within 24 hours
       { value: "99.5%", label: "24h resolution", end: 99.5, suffix: "%", decimals: 1 },
     ],
     tone: "azure" as const,
@@ -49,7 +53,7 @@ export function CaseStudies() {
       eyebrowTone="mint"
       title="Two African MVNOs. One"
       highlight="operating model."
-      description="Production case studies from the DSG group — both running in South Africa right now. DStv Internet (Multichoice) and Boxer Telecom (Pick n Pay) prove that the operating model in the deck isn't a foreign import. It was built here. The full architecture, integrations, SLAs and capacity model are walked through in Cape Town."
+      description="Two production MVNO case studies from the DSG group — both delivered out of CXG's Johannesburg and Cape Town contact-centre footprint (1,180+ seats). Live proof that the operating model in the deck is built here. The full architecture, integrations, SLAs and capacity model are walked through in Cape Town."
     >
       <div className="grid gap-6 lg:grid-cols-2">
         {compactCases.map((cs, idx) => {

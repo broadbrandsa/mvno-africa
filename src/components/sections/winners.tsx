@@ -27,7 +27,7 @@ export function Winners() {
         eyebrowTone="mint"
         title="The ones that endure all"
         highlight="solved a specific problem for a defined audience"
-        description="None won on price. Each chose a community, an experience or an identity their target customer was already paying for. Africa's diaspora, agri, youth and faith segments are some of the strongest examples of this anywhere in the world — Lebara, Lycamobile and FRiENDi Mobile built billion-dollar businesses on exactly this idea."
+        description="None won on price. Each chose a community, an experience or an identity their target customer was already paying for. Lebara and Lycamobile have 10M+ combined subscribers across Europe; FRiENDi Mobile is profitable in one of the most price-sensitive regions on earth. The deck unpacks how each one did it."
       >
         {/* Asymmetric layout: lead winner card spans 2 cols on desktop. */}
         <div className="grid gap-4 lg:grid-cols-3">

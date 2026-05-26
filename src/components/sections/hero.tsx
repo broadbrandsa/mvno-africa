@@ -8,23 +8,28 @@ import { Reveal } from "@/components/animated/reveal";
 import { event, groupBrands } from "@/content/deck";
 import { cn } from "@/lib/utils";
 
+// All three hero stats are sourced directly from the workshop deck.
+// See docs/FACT_CHECK.md for slide references.
 const heroStats = [
   {
-    end: 1.4,
-    decimals: 1,
-    suffix: "B+",
-    label: "Africans",
-    caption: "the world's fastest-growing population",
+    // Slide 25 — "20+ Licensed MVNOs in South Africa"
+    end: 20,
+    suffix: "+",
+    label: "MVNOs in South Africa",
+    caption: "the most MVNO-mature African market",
     tone: "mint" as const,
   },
   {
-    end: 60,
-    suffix: "%",
-    label: "Still offline",
-    caption: "the connectivity gap MVNOs can close",
+    // Slide 33 — "Combined invested capital: US$2.0bn+ · Combined investor return: near zero"
+    end: 2,
+    prefix: "US$",
+    suffix: "bn+",
+    label: "Lost on price-led MVNOs",
+    caption: "near-zero investor return across 9 launches",
     tone: "rose" as const,
   },
   {
+    // Derived from slide 27 — US$428 (identity-led) ÷ US$78 (price-led) ≈ 5.49
     end: 5.5,
     decimals: 1,
     suffix: "×",
@@ -134,9 +139,9 @@ export function Hero() {
                 <span className="font-semibold text-fg">
                   {event.host.name}
                 </span>{" "}
-                — DSG founder · 30+ years building MVNOs, customer
-                experience and digital platforms across the Americas,
-                Europe and Africa.
+                — Group CEO &amp; Founder, DSG. Building MVNOs,
+                customer experience and digital platforms across the
+                Americas, Europe and Africa.
               </p>
             </div>
           </Reveal>
@@ -161,6 +166,7 @@ export function Hero() {
                   <CountUp
                     end={stat.end}
                     decimals={"decimals" in stat ? stat.decimals : 0}
+                    prefix={"prefix" in stat ? stat.prefix : ""}
                     suffix={stat.suffix}
                   />
                 </dd>

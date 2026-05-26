@@ -36,7 +36,7 @@ export function LtvMath() {
       eyebrowTone="amber"
       title="Why churn — not wholesale rate —"
       highlight="decides profitability in Africa"
-      description="Drop monthly churn from 5% to 3% and LTV rises 67%. Drop wholesale rate by 10% and LTV moves about 10%. Retention compounds. Discounting does not — anywhere in the world, and especially not in markets where customer acquisition cost runs higher than ARPU for the first 12 months."
+      description="Drop monthly churn from 5% to 3% and LTV rises 67%. Drop wholesale rate by 10% and LTV moves about 10%. Retention compounds. Discounting does not."
     >
       <div className="space-y-5">
         {ltvComparison.map((row, i) => {

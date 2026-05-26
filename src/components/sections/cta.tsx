@@ -50,11 +50,12 @@ export function CTA() {
 
         <Reveal delay={160}>
           <p className="mt-6 max-w-2xl text-pretty text-base leading-relaxed text-fg-muted sm:text-lg">
-            <CountUp end={1.4} decimals={1} suffix="B+" /> Africans. The
-            world&apos;s fastest-growing population, its biggest connectivity
-            gap, and one of the most exciting MVNO opportunities anywhere
-            on earth. Two days in {event.venue} with the operators,
-            investors and platform leaders making it happen.
+            A generation of price-led MVNOs lost{" "}
+            <CountUp end={2} prefix="US$" suffix="bn+" /> chasing the
+            wrong subscriber. The winners — Tesco, giffgaff, Lebara,
+            Consumer Cellular — solved a specific problem for a defined
+            audience. Two days in {event.venue} with the team that&apos;s
+            put that operating model in production at DStv and Boxer.
           </p>
         </Reveal>
 
