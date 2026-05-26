@@ -136,20 +136,21 @@ export function CTA() {
           </Reveal>
 
           <Reveal delay={320}>
-            <div className="grid gap-5 rounded-3xl border border-white/10 bg-bg-card/60 p-6 backdrop-blur-md sm:p-7">
+            <div className="rounded-3xl border border-white/10 bg-bg-card/60 p-6 backdrop-blur-md sm:p-7">
               <Person
-                role="Speaker & host"
+                role="Hosted by"
                 name={event.host.name}
                 title={event.host.title}
                 email={event.host.email}
               />
-              <div className="h-px bg-gradient-to-r from-transparent via-white/15 to-transparent" />
-              <Person
-                role="Commercial lead"
-                name={event.commercial.name}
-                title={event.commercial.title}
-                email={event.commercial.email}
-              />
+              <div className="my-5 h-px bg-gradient-to-r from-transparent via-white/15 to-transparent" />
+              <a
+                href="#speakers"
+                className="press inline-flex items-center gap-1.5 text-sm font-semibold text-mint-400 transition-colors hover:text-mint-300"
+              >
+                Meet the full team
+                <ArrowUpRight className="size-3.5 -rotate-90" />
+              </a>
             </div>
           </Reveal>
         </div>

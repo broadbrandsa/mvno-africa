@@ -13,12 +13,12 @@ export const event = {
   ],
   host: {
     name: "Yaron Assabi",
-    title: "Group CEO & Founder — DSG",
+    title: "Founder, DSG",
     email: "yaron@cxg.co.za",
   },
   commercial: {
     name: "Edward Wicks",
-    title: "Chief Commercial Officer, MVNE",
+    title: "CEO, MVNE",
     email: "edwardw@mvne.co.za",
   },
 };
@@ -59,6 +59,61 @@ export const groupBrands = [
     href: "https://digitalmobile.co.za/",
     w: 60,
     h: 32,
+  },
+];
+
+/**
+ * Speakers / hosts confirmed for MVNO Nation Africa 2026 in Cape Town.
+ *
+ * Each speaker links to the website of the DSG group brand they lead,
+ * so the speaker grid doubles as a hub for visitors who want to learn
+ * more about each individual business. Add new speakers here and they
+ * appear in the <Speakers> section automatically.
+ *
+ * Photo expectation: drop a square (1:1) head-and-shoulders crop at
+ * `/public/images/speakers/<slug>.jpg`. If missing, the component
+ * renders an initials avatar fallback so nothing breaks.
+ */
+export const speakers = [
+  {
+    slug: "yaron-assabi",
+    name: "Yaron Assabi",
+    role: "Founder",
+    brand: "DSG",
+    brandUrl: "https://www.dsg.co.za/",
+    bio: "Founder of Digital Solutions Group. Hosts the workshop and runs the agenda across all three world-tour stops.",
+    accent: "mint" as const,
+  },
+  {
+    slug: "brandon-meszaros",
+    name: "Brandon Meszaros",
+    role: "CEO",
+    brand: "CXG",
+    brandUrl: "https://cxg.co.za/",
+    bio: "Runs DSG's customer experience group — the contact-centre footprint behind DStv Internet and Boxer Telecom.",
+    accent: "azure" as const,
+  },
+  {
+    slug: "edward-wicks",
+    name: "Edward Wicks",
+    role: "CEO",
+    brand: "MVNE",
+    brandUrl: "https://mvne.co.za/",
+    bio: "Heads up DSG's MVNE platform. Negotiates the wholesale and platform commercials that get an MVNO from idea to subscribers.",
+    accent: "mint" as const,
+  },
+  {
+    slug: "vincent-maher",
+    name: "Vincent Maher",
+    role: "CEO",
+    brand: "Broadbrand",
+    // TODO: verify this URL — Broadbrand's public domain wasn't in the
+    // deck. The default below matches the South African naming pattern
+    // of the other group brands. Update if Broadbrand uses something
+    // different.
+    brandUrl: "https://broadbrand.co.za/",
+    bio: "Leads Broadbrand, the digital marketing and AI-first growth arm of the DSG group.",
+    accent: "azure" as const,
   },
 ];
 

@@ -7,6 +7,7 @@ import { Failures } from "@/components/sections/failures";
 import { Winners } from "@/components/sections/winners";
 import { Pillars } from "@/components/sections/pillars";
 import { CaseStudies } from "@/components/sections/case-studies";
+import { Speakers } from "@/components/sections/speakers";
 import { RsvpForm } from "@/components/sections/rsvp-form";
 import { CTA } from "@/components/sections/cta";
 import { SiteFooter } from "@/components/sections/footer";
@@ -26,6 +27,7 @@ export default function Home() {
           <Pillars />
           <CaseStudies />
         </div>
+        <Speakers />
         <RsvpForm />
         <CTA />
       </main>
